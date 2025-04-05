@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff6ec4, #7873f5);
+    color: white;
+    text-align: center;
+}
+
+/* Header Section */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 24px;
+    color: white;
+    margin-left: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.nav-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Moving Logout Button Slightly Left */
+.logout {
+    margin-right: 50px;
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature-tab {
+    background: white;
+    color: black;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature-tab:hover {
+    transform: translateY(-5px);
+}
+
+.feature-tab img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.feature-tab h3 {
+    font-size: 22px;
+    color: #1e90ff;
+}
+
+.feature-tab p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.explore-btn {
+    background-color: #ff1493;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.explore-btn:hover {
+    background-color: #1e90ff;
+}
+
+/* Footer Section */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.footer-btn {
+    background:  rgb(201, 41, 201);
+    color:  white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.footer-btn:hover {
+    background: #ff1493;
+    color: white;
+}
